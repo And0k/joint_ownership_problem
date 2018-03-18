@@ -73,5 +73,6 @@ class MyTestCase(unittest.TestCase):
     # todo: add random users generator test, check by min possible variance(capitals)
 
 
-if __name__ == '__main__':
-    unittest.main()
+# Task statement requires no main!
+# if __name__ == '__main__':
+#     unittest.main(verbosity=2)

@@ -16,12 +16,6 @@ class GeneralFunctionsTest(unittest.TestCase):
         self.assertEqual(
             list(bfs_paths(lambda x: (x for x in dd[x]), 'A', lambda x: x == 'F')),
             [['A', 'C', 'F'], ['A', 'B', 'E', 'F']])
-    #
-    # dd = self.cfg['domains']
-    # p = bfs_paths(self.World.groups['normal'].o_can_exchange, 2, lambda x: x == 0)
-    # self.assertEqual(
-    #     list(p),
-    #     [[2,0],[2,1,0]])
 
 
 def assign_o_to_p(group, objects, person, test_fun=None):
