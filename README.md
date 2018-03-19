@@ -15,7 +15,7 @@ On Windows with multiple versions of Python and _Python Launcher for Windows_ [(
 This should output that tests are passed.  
 Integration test performs two tests:
 
-1. from Bitworks's task statement
+1. from Bitworks's integration task statement (see tests/test task demo.pdf)
 2. from this document below (it cover more complex cases)
 
 Integration tests (test_app) outputs table of persons flow with columns: _step number, action code, person's name, owners distribution, domain of added person (if action is to add person)_  
@@ -24,7 +24,7 @@ _Action code_ consist of
 1. "+" sign if adding person of normal priority or "L" letter if low priority
 2. person counter (equals to _persons number_ - 1) for who operation is performed
 
-Person's name in tests are generated automatically and it is equal to person counter. To number persons as in task statement (starting from 1) person 0 with empty domain is added first. This is not influence on domain distribution.
+Person's name in tests are generated automatically and it is equal to person counter. To number persons as in integration task statement (starting from 1) person 0 with empty domain is added first. This is not influence on domain distribution.
 
 Task statement
 --------------
