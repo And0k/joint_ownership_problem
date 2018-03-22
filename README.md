@@ -58,7 +58,7 @@ Even out owners in each cycle assigning 1 object
 Possible acceptors take in increase order of their capital, possible donors take in reverse order.
 > *Capital of donor must be > Capital of acceptor + 1. For example for distribution `00111222` - not try to redistribute ownership, but for `001112222` - try to take out from person 2 to person 0.
 
-> **If possible acceptor and donor is not joint through their object rights it is not means that donor can not deliver object to acceptor
+> **If possible acceptor and donor is not joint through their object rights it does not mean that donor can not deliver object to acceptor
 because it can exchange objects with its neighbours that can deliver its other object to acceptor (see example below).
 So we try to find path through persons (who can exchange) from possible acceptor to donor.
 3. If path found then assign objects in accordance with it and go to step 1. Else return distribution.
@@ -67,7 +67,8 @@ Denote:
 > EOCA(LOWPRIO) - EOCA for LOWPRIO persons and currently assigned to them objects only
 
 > EOCA(normal)  - EOCA for normal persons and currently assigned to them objects only
-domain - rights to objects
+
+> domain - rights to objects
 
 Adding person
 -------------
